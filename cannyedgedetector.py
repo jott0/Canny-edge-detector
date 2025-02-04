@@ -93,7 +93,7 @@ def Canny_detector(img, weak_th=None, strong_th=None):
     return mag 
    
 def main():
-    frame = cv2.imread("C:\\Users\\akc06\\OneDrive\\Desktop\\image.png") 
+    frame = cv2.imread("image.png") 
   
     # calling the designed function for finding edges 
     canny_img = Canny_detector(frame) 
